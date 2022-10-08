@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.h1 {
+  color: #bc6ff1;
+  margin-top: 20px;
+  padding-top: 100px;
+  text-align: center;
+  font-family: 'Alef', sans-serif;
+  font-family: 'Urbanist', sans-serif;
+  letter-spacing: 5px;
+}
+
+.desc {
+  color: aliceblue;
+  font-family: 'Alef', sans-serif;
+  font-family: 'Urbanist', sans-serif;
+  font-size: 1.2em;
+  padding: 20px;
+}

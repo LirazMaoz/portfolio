@@ -1,0 +1,4 @@
+#root > div > div.canvas > div > canvas {
+  height: 200px;
+  z-index: 1;
+}

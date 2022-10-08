@@ -1,0 +1,85 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  padding: 15px;
+  width: 100%;
+  min-height: 8vh;
+  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+  z-index: 9999999;
+}
+#root > div > header > nav > div > a {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 1.5em;
+  padding: 20px;
+}
+.list {
+  list-style-type: none;
+  background: linear-gradient(45deg, rgb(156, 14, 156), midnightblue);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.items {
+  margin-right: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+.items a {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.btn {
+  display: none;
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  padding: 5px;
+  font-size: 25px;
+}
+#root > div > header > nav > button > i {
+  color: #f1f1f1;
+  font-size: 1.5em;
+  display: none;
+}
+#root > div > header > nav > div > a > img {
+  width: 15vw;
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    display: block;
+  }
+  .list {
+    flex-direction: column;
+    height: auto;
+    transition: transform 0.5s ease-in;
+  }
+  .items:nth-child(1) {
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    margin-top: 50px;
+  }
+  .items {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    text-align: center;
+    margin-right: 0px;
+    padding: 40px;
+  }
+  #root > div > header > nav > button > i {
+    display: block;
+  }
+  #root > div > header > nav > div > a > img {
+    width: 20vw;
+  }
+}

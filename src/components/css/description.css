@@ -1,0 +1,18 @@
+.name {
+  font-family: 'Alef', sans-serif;
+  font-family: 'Urbanist', sans-serif;
+  color: aliceblue;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  font-size: 5em;
+}
+
+.desc {
+  color: aliceblue;
+  text-align: center;
+  line-height: 2;
+  font-family: 'Alef', sans-serif;
+  font-family: 'Urbanist', sans-serif;
+}

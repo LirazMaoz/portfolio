@@ -1,0 +1,48 @@
+.container {
+  text-align: center;
+}
+
+.btn-email {
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn-email span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.btn-email span::after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -60px;
+  transition: 0.5s;
+}
+.btn-email:hover span {
+  padding-right: 25px;
+}
+
+.btn-email:hover span::after {
+  opacity: 1;
+  right: 0;
+}
+#root > div > main > div > div > hr {
+  color: aliceblue;
+  width: 13vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
